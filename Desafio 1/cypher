@@ -1,0 +1,2 @@
+CREATE (Usuario)-[:_RELATED]->(Filme)<-[:_RELATED]-()-[:_RELATED]->(Series)<-[:_RELATED]-(Usuario),
+(Genero)<-[:_RELATED]-(Series)<-[:_RELATED]-()-[:_RELATED]->(Filme)-[:_RELATED]->(Genero)
