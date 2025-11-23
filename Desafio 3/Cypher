@@ -1,0 +1,1 @@
+CREATE (Post)<-[:_RELATED]-(Usuario)-[:_RELATED]->(Usuario)-[:_RELATED]->()<-[:_RELATED]-(Post)
