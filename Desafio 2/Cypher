@@ -1,0 +1,2 @@
+CREATE (Artista)<-[:_RELATED]-(Usuario)-[:_RELATED]->(Usuario)-[:_RELATED]->(Musica)-[:_RELATED]->(Artista)-[:_RELATED]->(Genero)<-[:_RELATED]-(Usuario),
+(Musica)-[:_RELATED]->(Genero)
